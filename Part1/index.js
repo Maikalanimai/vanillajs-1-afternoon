@@ -11,16 +11,16 @@ function play(box){
         clicked.innerText = 'O'
         board[box] = 'O'
     }
-    let topRight = board[0]
-    let topMiddle = board[1]
-    let topLeft = board[2]
-    let centerRight = board[3]
-    let centerMiddle = board[4]
-    let centerLeft = board[5]
-    let bottomRight = board[6]
-    let bottomMiddle = board[7]
-    let bottomLeft = board[8]
-    console.log(topRight, topMiddle, topLeft)
+    const topRight = board[0]
+    const topMiddle = board[1]
+    const topLeft = board[2]
+    const centerRight = board[3]
+    const centerMiddle = board[4]
+    const centerLeft = board[5]
+    const bottomRight = board[6]
+    const bottomMiddle = board[7]
+    const bottomLeft = board[8]
+    // console.log(topRight, topMiddle, topLeft)
     if(topRight !== undefined && topRight === topMiddle && topMiddle === topLeft){
         alert(`Player ${topRight} Wins!`)
         window.location.reload(false)
