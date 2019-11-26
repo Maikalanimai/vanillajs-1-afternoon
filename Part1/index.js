@@ -54,3 +54,4 @@ function play(box) {
     console.log([board])
 
 }
+// best first play is center, best second play response is in corner. if play in edge, player 1 wins.
